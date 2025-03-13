@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>VATHANA</title>
+  <link rel="stylesheet" href="Code/Style/style.css">
+  <script src="Code/jsc/respornsive.js"></script>
+  <script src="https://kit.fontawesome.com/17108a3f2f.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+  <body>
+
+  <!-- Top menu bar -->
+  <nav class="navbar ">
+    <div class="navbar-logo"><a href="#heropage"><img src="Images/logo-01.png" alt="" style="height: 60px;"></a></div>
+    <div class="navbar-menu">
+      <a href="#heropage" class="active">Home</a>
+      <a href="#aboutpage">About</a>
+      <a href="#servicepage">Service</a>
+      <a href="#experience">Experience</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#price">Price</a>
+      <a href="#contact">Contact</a>
+    </div>
+    
+    <button class="menu-button" onclick="toggleMenu()">&#9776;</button>
+    <div class="dropdown-menu" id="dropdownMenu">
+      <a href="#heropage">Home</a>
+      <a href="#aboutpage">About</a>
+      <a href="#servicepage">Service</a>
+      <a href="#experience">Experience</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#price">Price</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </nav>
+
+  <script src="Code/jsc/respornsive.js"></script>
+
+  <div style="width: auto; height: 1px; background-color: wheat;"></div>
+
+
+  <!-- Hero -->
+  <div class="container" id="heropage">
+    <div class="left-column">
+      
+      <div class="iamclass">
+        <h5 class="typewrite1">
+          I'am
+        </h5>
+      </div>
+      
+        <h1 class="heroname">YON VATHANA</h1>
+        <h1>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Creative, ", "Graphic Design", "Photography", "Softwhere development" ]'>
+            <span class="wrap"></span>
+          </a>
+        </h1>
+        <div class="buttonHero">
+          <button onclick="window.location.href='path_to_cv.pdf'">Download my CV</button>
+          <button onclick="window.location.href='https://t.me/yonvathana'">More About Me</button>
+        </div>
+    </div>
+    <div class="right-column animate-on-scroll">
+      <img class="imgHero" src="Images/Hero 1-01.png" alt="Yon Vathana">
+    </div>
+  </div>
+
+
+
+    <!-- About page -->
+
+  <div class="container-about"  id="aboutpage" sele>
+    <div class="about-left-column">
+      <img class="aboutimghero" src="Images/Profile.jpg" alt="Yon Vathana">
+    </div>
+
+    <div class="about-right-column animate-on-scroll">
+      <h1>ABOUT <span>ME</span></h1>
+        <div class="about-text">
+          <p>I am currently studying Financial Technology in year 4 at ACLEDA Institute of Business. I’m good at Programming and IT support. I have done a lot of projects related to my skill in my class. Another thing, I am having a good relationship with all my classmates and other students at school.</p>
+          <div class="skill">Graphics Design | Video Editing <span>95%</span>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 95%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill">Web Development <span>85%</span>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 85%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill">App Development <span>75%</span>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 75%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill">UI/UX Design <span>90%</span>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 90%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill">Photography (More than 2 years experiences) <span>95%</span>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 95%;"></div>
+            </div>
+          </div>
+        
+
+        </div>
+    </div>
+  </div>
+
+  
+  <!-- Service Page -->
+
+
+  <div class="container-service" id="servicepage">
+
+    <div class="service-header">
+      <h1>Our <span>Service</span></h1>
+      <p class=" animate-on-scroll">My <span>Special Service</span> For your
+      <br>  Business Development </p>
+    </div>
+
+
+    <div class="container-item">
+      <div class="service-item">
+        <img src="Images/Sverice1.jpg" alt="Icon">
+        <h3>Graphics Designs</h3>
+        <div>
+          <p>Poster, Flyer, Banner, etc. For social media. </p>
+        </div>
+      </div>
+  
+      <div class="service-item ">
+        <img src="Images/Webicon.jpeg" alt="Icon">
+        <h3>Web Development</h3>
+        <div>
+          <p>E Commercial, News Website, Management System, etc,</p>
+        </div>
+      </div>
+
+      <div class="service-item">
+        <img src="Images/Appicon.jpeg" alt="Icon">
+        <h3>App Development</h3>
+        <div>
+          <p>E Commercial, News Website, Management System, etc,</p> 
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container-item">
+
+      <div class="service-item">
+        <img src="Images/UiUxicon.jpg" alt="Icon">
+        <h3>UX UI Design</h3>
+        <div>
+          <p>Website, App, Destop App, etc,</p>
+        </div>
+      </div>
+  
+      <div class="service-item ">
+        <img src="Images/Photographyicon.jpg" alt="Icon">
+        <h3>Photography</h3>
+        <div>
+          <p>Pre-graduate, Model photoshut, etc,</p>
+        </div>
+      </div>
+
+      <div class="service-item">
+        <img src="Images/VideoIcon.jpeg" alt="Icon">
+        <h3>Video Editing</h3>
+        <div>
+          <p>Video promotion for Facebook, Tiktok, etc, </p> 
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Experience Page -->
+
+
+  <div class="experience-container" id="experience">
+
+    <div class="experience-right-column">
+
+      <div class="experience-header">
+        <h1>My <span>Experience</span></h1>
+        <p class=" animate-on-scroll">My <span>Special Experience</span> For your
+        <br>  <span>Business</span> Development </p>
+      </div>
+
+      <div class="experience-item">
+
+        <div class="experience-item-title">
+          <h4>Website and Design</h4>
+          <p>
+            01 / Mar / 2023 - Present <br>
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> ACLEDA University of Business
+          </p>
+          
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="experience-left-column">  
+      <img src="Images/Hero01.jpg" alt="Experience">
+    </div>
+
+  </div>
+
+  <!-- Portfolio Page -->
+
+  <div class="container-portfolio" id="portfolio">
+    <div class="portfolio-header">
+      <h1>My <span>Portfolio</span></h1>
+      <p class="animate-on-scroll">My <span>Excellent Work</span></p>
+    </div>
+  </div>
+
+  <div class="container-portfolio-item">
+    <div class="portfolio-item">
+      <img src="Images/portfolio items/Item1.jpg" alt="Portfolio">
+    </div>
+
+    <div class="portfolio-item">
+      <img src="Images/portfolio items/Item1.jpg" alt="Portfolio">
+    </div>
+
+    <div class="portfolio-item">
+      <img src="Images/portfolio items/Item1.jpg" alt="Portfolio">
+    </div>
+
+    <div class="portfolio-item">
+      <img src="Images/portfolio items/Item1.jpg" alt="Portfolio">
+    </div>
+
+
+  </div>
+
+  <!-- Price Page -->
+
+  <div class="container-price" id="price">
+    <div class="price-header">
+      <h1><span>Price</span></h1>
+      <p class="animate-on-scroll">The Right Plan <span>For Your Business</span></p>
+    </div>
+
+    <div class="price-item-container">
+
+      <div class="price-item">
+        <div class="price-item-header">
+          <h3>Sample</h3>
+          <p>29.99 USD</p>
+        </div>
+        <div class="price-item-content">
+          <ul class="price-item-list" style="list-style-type: none; padding: 0;">
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Graphics Design</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Web Development</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">App Development</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">UI/UX Design</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Photography</li>
+            <li style="padding: 5px 0;">Video Editing</li>
+          </ul>
+        </div>
+        <a class="dmbtn" href="tg://resolve?domain=@yonvathana">
+          <button>
+            Order now
+          </button>
+        </a>
+      </div>
+
+      <div class="price-item">
+        <div class="price-item-header">
+          <h3>Sample</h3>
+          <p>29.99 USD</p>
+        </div>
+        <div class="price-item-content">
+          <ul class="price-item-list" style="list-style-type: none; padding: 0;">
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Graphics Design</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Web Development</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">App Development</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">UI/UX Design</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Photography</li>
+            <li style="padding: 5px 0;">Video Editing</li>
+          </ul>
+        </div>
+        <a class="dmbtn" href="tg://resolve?domain=@yonvathana">
+          <button>
+            Order now
+          </button>
+        </a>
+      </div>
+
+      <div class="price-item">
+        <div class="price-item-header">
+          <h3>Sample</h3>
+          <p>29.99 USD</p>
+        </div>
+        <div class="price-item-content">
+          <ul class="price-item-list" style="list-style-type: none; padding: 0;">
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Graphics Design</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Web Development</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">App Development</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">UI/UX Design</li>
+            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Photography</li>
+            <li style="padding: 5px 0;">Video Editing</li>
+          </ul>
+        </div>
+        <a class="dmbtn" href="tg://resolve?domain=@yonvathana">
+          <button>
+            Order now
+          </button>
+        </a>
+      </div>
+
+
+
+    </div>
+
+    <!-- contect -->
+     
+    <div class="container-contact" id="contact">
+
+      <div class="contact-header">
+        <h1><span>Contact</span></h1>
+        <p class="animate-on-scroll">Get In Touch <span>With Me</span></p>
+      </div>
+
+      <div class="contact-button">
+        <button onclick="window.location.href='https://t.me/yonvathana'">Telegram</button>
+      </div>
+    </div>
+
+    <div class="container-contact-item">
+
+      <div class="container-contact-item-quicklink">
+        <h3>Quick Link</h3>
+        <ul>
+          <li><a href="#heropage">Home</a></li>
+          <li><a href="#aboutpage">About</a></li>
+          <li><a href="#servicepage">Service</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#price">Price</a></li>
+          <li><a href="#contact">Contact</a></li> 
+        </ul>
+      </div>
+
+      <div class="container-contact-item-contact">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Phnom Penh, Cambodia</li>
+          <li><i class="fa-solid fa-phone"></i> +855 966 807 610</li>
+          <li><i class="fa-solid fa-envelope"></i> softwarevathana@gmail.com</ii>
+      </div>
+
+      <div class="container-contact-item-follow">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="https://web.facebook.com/Yonvathana16">Facebook</a></li>
+          <li><a href="https://www.instagram.com/vathanafilm/">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/vathana-yon-81a446248/">Linkedin</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="container-footer">
+      <p>© 2025 All Rights Reserved. Yon Vathana </p>
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
